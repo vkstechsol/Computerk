@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html oncontextmenu="return false">
+<head>
+	<title>MCQ Test</title>
+
+	<!------------------------------CDN Connection1 script to connect Bootstrap------------------------  -->
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+	<!---------------------------------------------- Bootstrap ICON ------------------------------------------------------------->
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css">
+
+	<!----------------------- CSS File Link create this is immportant work with CSS -------------->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$('input[type="radio"]').click(function() {
+				var answer = $(this).data('answer');
+				$(this).parent().find('.answer').html(answer).show();
+			});
+		});
+	</script>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+		  
+		
+		
+            <nav class="navbar navbar-expand-lg bg-info">
+                <div class="container-fluid ">
+                    <a class="navbar-brand" href="#">
+                        <!-- <img src="images/logo.jpg" width="100px" alt=""> -->
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                             <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                 Computer Quiz
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item text-white bg-dark" href="index.html">Home</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item text-white bg-dark" href="quiz2.html">Quiz-2</a></li>
+                                    <li><hr class="dropdown-divider"></li> 
+                                    <!-- <li><a class="dropdown-item text-white bg-dark" href="#sumit1">Contact us</a></li> -->
+                                 </ul>
+                            </li>
+      
+                            <!-- <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Advance Computer knowledge
+                              </a>
+                              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                  <li><a class="dropdown-item text-white bg-dark" href="index.html">Home</a></li>
+                                  <li><hr class="dropdown-divider"></li>
+                                  <li><a class="dropdown-item text-white bg-dark" href="computeros.html">OS</a></li>
+                                  <li><hr class="dropdown-divider"></li>
+                                   <li><a class="dropdown-item text-white bg-dark" href="#sumit1">Contact us</a></li> 
+                              </ul>
+                          </li>  -->
+      
+      
+      
+                            <li class="nav-item">
+                                <a href="aboutus.html" class="nav-link text-dark">About Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+		</div>
+
+
+		
+		
+		  </div>
+
+
+
+	<h1>Check your Computer Knowledge with Explanation</h1>
+	<form>
+		<div>
+			<h3>Question 1:	Which of the following is not an input device? </h3>
+			<input type="radio" name="q1"  data-answer=" Wrong Answer:-❌"> Keyboard<br>
+			<input type="radio" name="q1"  data-answer= "Wrong Answer:-❌ "> Mouse<br>
+			<input type="radio" name="q1"  data-answer="Correct Answer: ✔ Printer- A printer is a device that produces a hard copy output, not an input device that receives input from the user. Keyboard and mouse are examples of input devices that allow users to interact with the computer."> Printer<br>
+			<input type="radio" name="q1"  data-answer=" Wrong Answer:-:❌"> Scanner<br>
+			<input type="radio" name="q1"  data-answer=" A printer is a device that produces a hard copy output, not an input device that receives input from the user. Keyboard and mouse are examples of input devices that allow users to interact with the computer."><span class="s1" > For Explanation<br></span>
+			<div class="answer"></div>
+		</div>
+		
+	<div>
+		<h3>Question 2:	Which of the following is an example of a secondary storage device? </h3>
+		<input type="radio" name="q2"  data-answer="Wrong Answer:-❌"> RAM <br>
+		<input type="radio" name="q2"  data-answer="Wrong Answer:-❌"> CPU<br>
+		<input type="radio" name="q2"  data-answer="Correct Answer:- ✔"> Hard disk <br>
+		<input type="radio" name="q2"  data-answer="Wrong Answer:-❌"> Monitor<br>
+		<input type="radio" name="q2"  data-answer=" Secondary storage devices are used to store data and programs for a long time even after the computer is turned off. Examples of secondary storage devices include hard disks, USB drives, CDs, and DVDs"><span class="s1" > For Explanation<br></span>
+		<div class="answer"></div>
+	</div>
+	<div>
+		<h3>Question 3:	Which of the following is NOT a web browser?</h3>
+		<input type="radio" name="q3" data-answer="Wrong Answer:-❌"> Firefox<br>
+		<input type="radio" name="q3"  data-answer="Wrong Answer:-❌"> Chrome <br>
+		<input type="radio" name="q3"  data-answer="Wrong Answer:-❌"> Safari <br>
+		<input type="radio" name="q3"  data-answer="Correct Answer:- ✔"> Photoshop<br>
+		<input type="radio" name="q3"  data-answer=" Photoshop is an image editing software, not a web browser. Web browsers are software applications that allow users to access and view web pages on the internet. Examples of web browsers include Firefox, Chrome, and Safari."><span class="s1" > For Explanation<br></span>
+		<div class="answer"></div>
+	</div>
+	<div>
+		<h3>Question 4:	What does RAM stand for? </h3>
+		<input type="radio" name="q4"  data-answer="Wrong Answer:-❌"> Read-Access Memory<br>
+		<input type="radio" name="q4"  data-answer="Wrong Answer:-❌"> Read-Only Memory  <br>
+		<input type="radio" name="q4"  data-answer="Correct Answer:- ✔"> Random-Access Memory  <br>
+		<input type="radio" name="q4"  data-answer="Wrong Answer:-❌"> Random-Only Memory<br>
+		<input type="radio" name="q4"  data-answer=" RAM is a type of computer memory that is used to temporarily store data that the CPU is currently using. It is called random access because the CPU can access any part of the memory directly, without having to go through other parts of the memory first."><span class="s1" > For Explanation<br></span>
+		<div class="answer"></div>
+	</div>
+
+	<div>
+		<h3>Question 5:	Which of the following is an example of a spreadsheet program?  </h3>
+		<input type="radio" name="q4"  data-answer="Correct Answer:- ✔"> Microsoft Excel<br>
+		<input type="radio" name="q4"  data-answer="Wrong Answer:-❌"> Microsoft Word  <br>
+		<input type="radio" name="q4"  data-answer="Wrong Answer:-❌"> Microsoft PowerPoint  <br>
+		<input type="radio" name="q4"  data-answer="Wrong Answer:-❌"> Microsoft Access<br>
+		<input type="radio" name="q4"  data-answer=" Spreadsheet programs are used to organize and manipulate numerical data in the form of tables. Microsoft Excel is one of the most popular spreadsheet programs."><span class="s1" > For Explanation<br></span>
+		<div class="answer"></div>
+	</div>
+
+	<div>
+		<h3>Question 6:	What is the full form of URL?   </h3>
+		<input type="radio" name="q4"  data-answer="Correct Answer:- ✔">Universal Resource Locator<br>
+		<input type="radio" name="q4"  data-answer="Wrong Answer:-❌"> Uniform Resource Location  <br>
+		<input type="radio" name="q4"  data-answer="Wrong Answer:-❌"> Unique Resource Locator  <br>
+		<input type="radio" name="q4"  data-answer="Wrong Answer:-❌"> United Resource Locator<br>
+		<input type="radio" name="q4"  data-answer=" A URL is a web address that specifies the location of a web page on the internet. It stands for Universal Resource Locator."><span class="s1" > For Explanation<br></span>
+		<div class="answer"></div>
+	</div>
+
+	<div>
+		<h3>Question 7:	Which of the following is a programming language?    </h3>
+		<input type="radio" name="q4"  data-answer="Wrong Answer:-❌">HTML<br>
+		<input type="radio" name="q4"  data-answer="Wrong Answer:-❌"> CSS  <br>
+		<input type="radio" name="q4"  data-answer="Correct Answer:- ✔"> Java  <br>
+		<input type="radio" name="q4"  data-answer="Wrong Answer:-❌"> XML<br>
+		<input type="radio" name="q4"  data-answer=" Java is a popular programming language that is used to create a wide variety of applications, including web applications, mobile apps, and games."><span class="s1" > For Explanation<br></span>
+		<div class="answer"></div>
+	</div>
+
+	<div>
+		<h3>Question 8:	What is a virus?  </h3>
+		<input type="radio" name="q4"  data-answer="Wrong Answer:-❌">A type of computer hardware <br>
+		<input type="radio" name="q4"  data-answer="Correct Answer:- ✔"> A type of malware that replicates itself and spreads to other computers  <br>
+		<input type="radio" name="q4"  data-answer="Wrong Answer:-❌">A type of software that performs a specific task  <br>
+		<input type="radio" name="q4"  data-answer="Wrong Answer:-❌">A type of peripheral device<br>
+		<input type="radio" name="q4"  data-answer="  A virus is a type of malware that is designed to replicate itself and spread to other computers. It can cause damage to the computer by corrupting or deleting files, stealing personal information, or disrupting the normal operation of the computer."><span class="s1" > For Explanation<br></span>
+		<div class="answer"></div>
+	</div>
+
+	<div>
+		<h3>Question 9:	Which of the following is NOT an operating system?   </h3>
+		<input type="radio" name="q4"  data-answer="Wrong Answer:-❌">Windows<br>
+		<input type="radio" name="q4"  data-answer="Wrong Answer:-❌"> Linux <br>
+		<input type="radio" name="q4"  data-answer="Correct Answer:- ✔"> Adobe <br>
+		<input type="radio" name="q4"  data-answer="Wrong Answer:-❌"> iOS<br>
+		<input type="radio" name="q4"  data-answer=" Adobe is a software company that produces a variety of creative and productivity software. It is not an operating system. Examples of operating systems include Windows, macOS, and Linux."><span class="s1" > For Explanation<br></span>
+		<div class="answer"></div>
+	</div>
+
+	<div>
+		<h3>Question 10:	What is the function of a router in a network?    </h3>
+		<input type="radio" name="q4"  data-answer="Correct Answer:- ✔">To manage network traffic<br>
+		<input type="radio" name="q4"  data-answer="Wrong Answer:-❌"> . To connect devices within a network <br>
+		<input type="radio" name="q4"  data-answer="Wrong Answer:-❌"> To provide security for the network  <br>
+		<input type="radio" name="q4"  data-answer="Wrong Answer:-❌">To display web pages on the network<br>
+		<input type="radio" name="q4"  data-answer=" A router is a networking device that is used to connect multiple devices in a network and manage the flow of data between them. It is used to direct traffic between different networks and prevent congestion on the network."><span class="s1" > For Explanation<br></span>
+		<div class="answer"></div>
+	</div>
+
+
+
+	<input type="submit" value="Refresh">
+</form>
+<!----------------------- Social media Icon script copy website ionicons ----------------------------------------->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+<!----------------------- CDN Connection script to connect Bootstrap ----------------------------------------->    
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
