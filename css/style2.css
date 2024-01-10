@@ -94,3 +94,15 @@ bu[type="button"]:hover {
     border-radius: 1px;
     
 }
+h2 {
+  font-size: 30px; 
+  font-weight: bold; 
+}
+
+.b1{
+    font-size: 30px; 
+  font-weight: bold;
+  color: rgb(33, 6, 235);
+}
+
+
