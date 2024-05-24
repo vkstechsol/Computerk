@@ -67,7 +67,7 @@ nextButton.addEventListener("click", () => {
 });
 
 changeWord();
-setInterval(changeWord1, 3000);
+setInterval(changeWord1, 5000);
 
 
 
